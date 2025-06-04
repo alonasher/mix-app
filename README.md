@@ -1,4 +1,4 @@
-# 2 Important note
+# 2 Important Notes!
 1. While the intention was to keep this a small-scale project, it would have been more beneficial to utilize a state management library such as MobX or a similar package for more robust state handling.
 2. All requirements have been successfully implemented, with the exception of section 7.
 

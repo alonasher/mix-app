@@ -31,8 +31,8 @@ const SearchContainer = (props: SearchContainerProps) => {
             ))}
             <div className='search-footer'>
                 <div>{nextUrl && <Button className='next-btn' onClick={() => onSearch('', nextUrl)} label='next'/>}</div>
-                {data && data.length > 0 && <div className='search-footer-toggles-container'><div>List Button</div>
-                    <div>Tile Button</div></div>}
+                {/* {data && data.length > 0 && <div className='search-footer-toggles-container'><div>List Button</div>
+                    <div>Tile Button</div></div>} */}
             </div>
         </div>
     );

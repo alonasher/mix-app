@@ -1,0 +1,30 @@
+.last-searches-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+h2{
+    margin: 0;
+}
+
+.last-searches-list{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.last-searches-list > div {
+    text-decoration: underline;
+    color: #006D77; 
+    text-transform: capitalize;
+}
+
+.last-searches-list > div:hover {
+    cursor: pointer;
+}

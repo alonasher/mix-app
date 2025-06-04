@@ -1,0 +1,25 @@
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.iframe-container{
+    min-height: 130px;
+}
+
+.album-cover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.album-cover:hover {
+    cursor: pointer;
+}
+
+.fade-out {
+    opacity: 0;
+}

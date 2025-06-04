@@ -1,0 +1,13 @@
+h1 {
+    margin: 0 0 20px 0;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.content-conatiner-item {
+    width: 33%;
+}
